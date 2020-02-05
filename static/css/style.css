@@ -2698,6 +2698,10 @@ ul.multi-column-dropdown h6 {
 .row-grid:nth-child(2) {
     margin-top: 1em;
 }
+.tittle1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 55px;
+}
 }
 @media(max-width:800px){
 .cd-header-buttons {
