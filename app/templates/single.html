@@ -36,30 +36,6 @@ $(window).load(function() {
 </script>
 
   <!--mycart-->
-  <!--start-rate-->
-<script src="../static/js/jstarbox.js"></script>
-	<link rel="stylesheet" href="../static/css/jstarbox.css" type="text/css" media="screen" charset="utf-8" />
-		<script type="text/javascript">
-			jQuery(function() {
-			jQuery('.starbox').each(function() {
-				var starbox = jQuery(this);
-					starbox.starbox({
-					average: starbox.attr('data-start-value'),
-					changeable: starbox.hasClass('unchangeable') ? false : starbox.hasClass('clickonce') ? 'once' : true,
-					ghosting: starbox.hasClass('ghosting'),
-					autoUpdateAverage: starbox.hasClass('autoupdate'),
-					buttons: starbox.hasClass('smooth') ? false : starbox.attr('data-button-count') || 5,
-					stars: starbox.attr('data-star-count') || 5
-					}).bind('starbox-value-changed', function(event, value) {
-					if(starbox.hasClass('random')) {
-					var val = Math.random();
-					starbox.next().text(' '+val);
-					return val;
-					} 
-				})
-			});
-		});
-		</script>
 <!--//End-rate-->
 <link href="../static/css/owl.carousel.css" rel="stylesheet">
 <script src="../static/js/owl.carousel.js"></script>
@@ -102,90 +78,14 @@ $(window).load(function() {
 						</div>
 						<div class="logo-nav-left1">
 							<nav class="navbar navbar-default">
-							<!-- Brand and toggle get grouped for better mobile display -->
-							<div class="navbar-header nav_2">
-								<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
-							</div>
-							<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+							<div class="collapse navbar-collapse" >
 								<ul class="nav navbar-nav">
 									<li class="active"><a href="index.html" class="act"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Головна</font></font></a></li>
-									<!-- Mega Menu -->
-									<li class="dropdown">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">жінки</font></font><b class="caret"></b></a>
-										<ul class="dropdown-menu multi-column columns-3">
-											<div class="row">
-												<div class="col-sm-3  multi-gd-img">
-													<ul class="multi-column-dropdown">
-														<h6>Submenu1</h6>
-														<li><a href="products.html">Clothing</a></li>
-														<li><a href="products.html">Wallets</a></li>
-														<li><a href="products.html">Shoes</a></li>
-														<li><a href="products.html">Watches</a></li>
-														<li><a href="products.html"> Underwear </a></li>
-														<li><a href="products.html">Accessories</a></li>
-													</ul>
-												</div>
-												<div class="col-sm-3  multi-gd-img">
-													<ul class="multi-column-dropdown">
-														<h6>Submenu2</h6>
-														<li><a href="products.html">Sunglasses</a></li>
-														<li><a href="products.html">Wallets,Bags</a></li>
-														<li><a href="products.html">Footwear</a></li>
-														<li><a href="products.html">Watches</a></li>
-														<li><a href="products.html">Accessories</a></li>
-														<li><a href="products.html">Jewellery</a></li>
-													</ul>
-												</div>
-												<div class="col-sm-3  multi-gd-img">
-														<a href="products.html"><img src="../static/images/woo.jpg" alt=" "></a>
-												</div>
-												<div class="col-sm-3  multi-gd-img">
-														<a href="products.html"><img src="../static/images/woo1.jpg" alt=" "></a>
-												</div>
-												<div class="clearfix"></div>
-											</div>
-										</ul>
+									<li>
+										<a href="woman.html" ><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Жінки</font></font></a>
 									</li>
-									<li class="dropdown">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Чоловіки </font></font><b class="caret"></b></a>
-										<ul class="dropdown-menu multi-column columns-3">
-											<div class="row">
-												<div class="col-sm-3  multi-gd-img">
-													<ul class="multi-column-dropdown">
-														<h6>Submenu1</h6>
-														<li><a href="products1.html">Clothing</a></li>
-														<li><a href="products1.html">Wallets</a></li>
-														<li><a href="products1.html">Shoes</a></li>
-														<li><a href="products1.html">Watches</a></li>
-														<li><a href="products1.html"> Underwear </a></li>
-														<li><a href="products1.html">Accessories</a></li>
-													</ul>
-												</div>
-												<div class="col-sm-3  multi-gd-img">
-													<ul class="multi-column-dropdown">
-														<h6>Submenu 2</h6>
-														<li><a href="products1.html">Sunglasses</a></li>
-														<li><a href="products1.html">Wallets,Bags</a></li>
-														<li><a href="products1.html">Footwear</a></li>
-														<li><a href="products1.html">Watches</a></li>
-														<li><a href="products1.html">Accessories</a></li>
-														<li><a href="products1.html">Jewellery</a></li>
-													</ul>
-												</div>
-												<div class="col-sm-3  multi-gd-img">
-														<a href="products1.html"><img src="../static/images/woo4.jpg" alt=" "></a>
-												</div>
-												<div class="col-sm-3  multi-gd-img">
-														<a href="products1.html"><img src="../static/images/woo3.jpg" alt=" "></a>
-												</div>
-												<div class="clearfix"></div>
-											</div>
-										</ul>
+									<li >
+										<a href="man.html" ><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Чоловіки </font></font></a>
 									</li>
 									<li><a href="mail.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Зв'язок з нами</font></font></a></li>
 								</ul>
@@ -242,29 +142,13 @@ $(window).load(function() {
 									<div class="flex-viewport" style="overflow: hidden; position: relative;"><ul class="slides" style="width: 1000%; transition-duration: 0.6s; transform: translate3d(-1158px, 0px, 0px);"><li data-thumb="images/si2.jpg" class="clone" aria-hidden="true" style="width: 386px; float: left; display: block;">
 											   <div class="thumb-image"> <img src="../static/images/si2.jpg" data-imagezoom="true" class="img-responsive" draggable="false"> </div>
 											</li>
-											<li data-thumb="images/si.jpg" style="width: 386px; float: left; display: block;" class="">
-												<div class="thumb-image"> <img src="../static/images/si.jpg" data-imagezoom="true" class="img-responsive" draggable="false"> </div>
-											</li>
-											<li data-thumb="images/si1.jpg" style="width: 386px; float: left; display: block;" class="">
-												 <div class="thumb-image"> <img src="../static/images/si1.jpg" data-imagezoom="true" class="img-responsive" draggable="false"> </div>
-											</li>
-											<li data-thumb="images/si2.jpg" style="width: 386px; float: left; display: block;" class="flex-active-slide">
-											   <div class="thumb-image"> <img src="../static/images/si2.jpg" data-imagezoom="true" class="img-responsive" draggable="false"> </div>
-											</li>
-										 <li data-thumb="images/si.jpg" style="width: 386px; float: left; display: block;" class="clone" aria-hidden="true">
-												<div class="thumb-image"> <img src="../static/images/si.jpg" data-imagezoom="true" class="img-responsive" draggable="false"> </div>
-											</li></ul></div><ol class="flex-control-nav flex-control-thumbs"><li><img src="../static/images/si.jpg" class="" draggable="false"></li><li><img src="../static/images/si1.jpg" draggable="false" class=""></li><li><img src="../static/images/si2.jpg" draggable="false" class="flex-active"></li></ol><ul class="flex-direction-nav"><li class="flex-nav-prev"><a class="flex-prev" href="#">Previous</a></li><li class="flex-nav-next"><a class="flex-next" href="#">Next</a></li></ul></div>
+										 </ul></div></div>
 								</div>
 								<div class="single-right simpleCart_shelfItem">
 									<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Premium годинник з діамантами</font></font></h4>
-									<div class="block">
-										<div class="starbox small ghosting"><div class="positioner"><div class="stars"><div class="ghost" style="display: none; width: 42.5px;"></div><div class="colorbar" style="width: 42.5px;"></div><div class="star_holder"><div class="star star-0"></div><div class="star star-1"></div><div class="star star-2"></div><div class="star star-3"></div><div class="star star-4"></div></div></div></div></div>
-									</div>
 									<p class="price item_price"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$ 14,00</font></font></p>
 									<div class="description">
-										<p><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Коротка інформація:</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Коли годинник Ladymatic вперше з'явився в 1955 році, він став законодавцем жіночої годинникової моди. Через шість десятиліть його грація і чарівність не зменшилися ні на йоту.
-
-У даній моделі годинний корпус, що налічує в діаметрі 34 мм, і браслет виготовлені з нержавіючої сталі. Поліровані стрілки форми "альфа" складаються з білого золота, як і 11 прикрашених діамантами індексів.якіс</font></font></p>
+										<p><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Коротка інформація:</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Коли годинник Ladymatic вперше з'явився в 1955 році, він став законодавцем жіночої годинникової моди. Через шість десятиліть його грація і чарівність не зменшилися ні на йоту.У даній моделі годинний корпус, що налічує в діаметрі 34 мм, і браслет виготовлені з нержавіючої сталі. Поліровані стрілки форми "альфа" складаються з білого золота, як і 11 прикрашених діамантами індексів.якіс</font></font></p>
 									</div>
 									<div class="color-quality">
 										<h6><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Кількість:</font></font></h6>
@@ -293,158 +177,13 @@ $(window).load(function() {
 										<span class="size"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">40/70 / S </font></font></span>
 										<a href="#" data-text="У кошик" class="my-cart-b item_add"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Додати в кошик</font></font></a>
 									</div>
-									<div class="social-icon">
-										<a href="#"><i class="icon"></i></a>
-										<a href="#"><i class="icon1"></i></a>
-										<a href="#"><i class="icon2"></i></a>
-										<a href="#"><i class="icon3"></i></a>
-									</div>
 								</div>
 								<div class="clearfix"> </div>
 							</div>
 						</div>
-						<div class="col-md-3 single-grid1">
-							<h3 style="font-family: 'Pacifico', cursive;font-size: 30px;" >Останні переглянуті</h3>
-							<div class="recent-grids">
 
-								<div class="recent-left">
-									<a href="single.html"><img class="img-responsive " src="../static/images/r.jpg" alt=""></a>
-								</div>
-								<div class="recent-right">
-									<h6 class="best2"><a href="single.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Комплект майка + шорти </font></font></a></h6>
-									<div class="block">
-										<div class="starbox small ghosting"><div class="positioner"><div class="stars"><div class="ghost" style="display: none; width: 42.5px;"></div><div class="colorbar" style="width: 42.5px;"></div><div class="star_holder"><div class="star star-0"></div><div class="star star-1"></div><div class="star star-2"></div><div class="star star-3"></div><div class="star star-4"></div></div></div></div></div>
-									</div>
-									<span class=" price-in1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> $ 29,00</font></font></span>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<div class="recent-grids">
-								<div class="recent-left">
-									<a href="single.html"><img class="img-responsive " src="../static/images/r1.jpg" alt=""></a>
-								</div>
-								<div class="recent-right">
-									<h6 class="best2"><a href="single.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Традиційне Індійське вбрання </font></font></a></h6>
-									<div class="block">
-										<div class="starbox small ghosting"><div class="positioner"><div class="stars"><div class="ghost" style="display: none; width: 42.5px;"></div><div class="colorbar" style="width: 42.5px;"></div><div class="star_holder"><div class="star star-0"></div><div class="star star-1"></div><div class="star star-2"></div><div class="star star-3"></div><div class="star star-4"></div></div></div></div></div>
-									</div>
-									<span class=" price-in1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> $ 19,00</font></font></span>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<div class="recent-grids">
-								<div class="recent-left">
-									<a href="single.html"><img class="img-responsive " src="../static/images/r2.jpg" alt=""></a>
-								</div>
-								<div class="recent-right">
-									<h6 class="best2"><a href="single.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Мешти чоловічі класичні</font></font></a></h6>
-									<div class="block">
-										<div class="starbox small ghosting"><div class="positioner"><div class="stars"><div class="ghost" style="display: none; width: 42.5px;"></div><div class="colorbar" style="width: 42.5px;"></div><div class="star_holder"><div class="star star-0"></div><div class="star star-1"></div><div class="star star-2"></div><div class="star star-3"></div><div class="star star-4"></div></div></div></div></div>
-									</div>
-									<span class=" price-in1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> $ 19,00</font></font></span>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<div class="recent-grids">
-								<div class="recent-left">
-									<a href="single.html"><img class="img-responsive " src="../static/images/r3.jpg" alt=""></a>
-								</div>
-								<div class="recent-right">
-									<h6 class="best2"><a href="single.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Піджак чоловічий </font></font></a></h6>
-									<div class="block">
-										<div class="starbox small ghosting"><div class="positioner"><div class="stars"><div class="ghost" style="display: none; width: 42.5px;"></div><div class="colorbar" style="width: 42.5px;"></div><div class="star_holder"><div class="star star-0"></div><div class="star star-1"></div><div class="star star-2"></div><div class="star star-3"></div><div class="star star-4"></div></div></div></div></div>
-									</div>
-									<span class=" price-in1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$ 45,00</font></font></span>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
 						<div class="clearfix"> </div>
 					</div>
-					<!--Product Description-->
-						<div class="product-w3agile">
-
-							<h3 style="font-family: 'Pacifico', cursive;font-size: 55px;" class="tittle1"> Опис продукту</h3>
-							<div class="product-grids">
-
-								<div class="col-md-8 product-grid1">
-									<div class="tab-wl3">
-										<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
-											<ul id="myTab" class="nav nav-tabs left-tab" role="tablist">
-												<li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">опис</font></font></a></li>
-												<li role="presentation"><a href="#reviews" role="tab" id="reviews-tab" data-toggle="tab" aria-controls="reviews"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Відгуки (1)</font></font></a></li>
-
-											</ul>
-											<div id="myTabContent" class="tab-content">
-												<div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
-													<div class="descr">
-														<h4>Технічні характеристики:</h4>
-														<ul>
-															<li> Вага: 150гр</li>
-															<li> Довжина: 65cm</li>
-															<li> Для повсякденного життя</li>
-															<li> Матеріал: Біле золото</li>
-														</ul>
-														<p class="quote">Коли годинник Ladymatic вперше з'явився в 1955 році, він став законодавцем жіночої годинникової моди. Через шість десятиліть його грація і чарівність не зменшилися ні на йоту. У даній моделі годинний корпус, що налічує в діаметрі 34 мм, і браслет виготовлені з нержавіючої сталі. Поліровані стрілки форми "альфа" складаються з білого золота, як і 11 прикрашених діамантами індексів.якіс</p>
-
-
-														<p class="quote"> Коли годинник Ladymatic вперше з'явився в 1955 році, він став законодавцем жіночої годинникової моди. Через шість десятиліть його грація і чарівність не зменшилися ні на йоту. У даній моделі годинний корпус, що налічує в діаметрі 34 мм, і браслет виготовлені з нержавіючої сталі. Поліровані стрілки форми "альфа" складаються з білого золота, як і 11 прикрашених діамантами індексів.якіс
-														</p>
-
-													</div>
-												</div>
-												<div role="tabpanel" class="tab-pane fade" id="reviews" aria-labelledby="reviews-tab">
-													<div class="descr">
-														<div class="reviews-top">
-															<div class="reviews-left">
-																<img src="../static/images/men3.jpg" alt=" " class="img-responsive">
-															</div>
-															<div class="reviews-right">
-																<ul>
-																	<li><a href="#">Admin</a></li>
-																	<li><a href="#"><i class="glyphicon glyphicon-share" aria-hidden="true"></i>Reply</a></li>
-																</ul>
-																<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit.</p>
-															</div>
-															<div class="clearfix"></div>
-														</div>
-														<div class="reviews-bottom">
-															<h4>Add Reviews</h4>
-															<p>Your email address will not be published. Required fields are marked *</p>
-															<p>Your Rating</p>
-															<div class="block">
-																<div class="starbox small ghosting"><div class="positioner" style=""><div class="stars"><div class="ghost" style="display: none; width: 0px;"></div><div class="colorbar" style="width: 0px;"></div><div class="star_holder"><div class="star star-0"></div><div class="star star-1"></div><div class="star star-2"></div><div class="star star-3"></div><div class="star star-4"></div></div></div></div></div>
-															</div>
-															<form action="#" method="post">
-																<label>Your Review </label>
-																<textarea type="text" name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
-																<div class="row">
-																	<div class="col-md-6 row-grid">
-																		<label>Name</label>
-																		<input type="text" value="Name" name="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-																	</div>
-																	<div class="col-md-6 row-grid">
-																		<label>Email</label>
-																		<input type="email" value="Email" name="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-																	</div>
-																	<div class="clearfix"></div>
-																</div>
-																<input type="submit" value="SEND">
-															</form>
-														</div>
-													</div>
-												</div>
-												<div role="tabpanel" class="tab-pane fade" id="custom" aria-labelledby="custom-tab">
-
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					<!--Product Description-->
 				</div>
 			</div>
 			<!--single-->
@@ -472,9 +211,6 @@ $(window).load(function() {
 									<div class="ribben1">
 										<p>ЗНИЖКА</p>
 									</div>
-									<div class="block">
-										<div class="starbox small ghosting"><div class="positioner"><div class="stars"><div class="ghost" style="display: none; width: 42.5px;"></div><div class="colorbar" style="width: 42.5px;"></div><div class="star_holder"><div class="star star-0"></div><div class="star star-1"></div><div class="star star-2"></div><div class="star star-3"></div><div class="star star-4"></div></div></div></div></div>
-									</div>
 									<div class="women">
 										<h6><a href="single.html">Світшот чорний</a></h6>
 										<span class="size">XL / XXL / S </span>
@@ -499,9 +235,6 @@ $(window).load(function() {
 									</div>
 									<div class="ribben2">
 										<p>ЗАКІНЧУЄТЬСЯ</p>
-									</div>
-									<div class="block">
-										<div class="starbox small ghosting"><div class="positioner"><div class="stars"><div class="ghost" style="display: none; width: 42.5px;"></div><div class="colorbar" style="width: 42.5px;"></div><div class="star_holder"><div class="star star-0"></div><div class="star star-1"></div><div class="star star-2"></div><div class="star star-3"></div><div class="star star-4"></div></div></div></div></div>
 									</div>
 									<div class="women">
 										<h6><a href="single.html">Годинник Daniel Klein</a></h6>
@@ -528,9 +261,6 @@ $(window).load(function() {
 									<div class="ribben1">
 										<p>ЗНИЖКА</p>
 									</div>
-									<div class="block">
-										<div class="starbox small ghosting"><div class="positioner"><div class="stars"><div class="ghost" style="display: none; width: 42.5px;"></div><div class="colorbar" style="width: 42.5px;"></div><div class="star_holder"><div class="star star-0"></div><div class="star star-1"></div><div class="star star-2"></div><div class="star star-3"></div><div class="star star-4"></div></div></div></div></div>
-									</div>
 									<div class="women">
 										<h6><a href="single.html">Рюкзак American Tourister</a></h6>
 										<span class="size">XL / XXL / S </span>
@@ -556,9 +286,6 @@ $(window).load(function() {
 									<div class="ribben">
 										<p>НОВИНКА</p>
 									</div>
-									<div class="block">
-										<div class="starbox small ghosting"><div class="positioner"><div class="stars"><div class="ghost" style="display: none; width: 42.5px;"></div><div class="colorbar" style="width: 42.5px;"></div><div class="star_holder"><div class="star star-0"></div><div class="star star-1"></div><div class="star star-2"></div><div class="star star-3"></div><div class="star star-4"></div></div></div></div></div>
-									</div>
 									<div class="women">
 										<h6><a href="single.html">Кеди чоловічі чорні</a></h6>
 										<span class="size">XL / XXL / S </span>
@@ -579,17 +306,11 @@ $(window).load(function() {
 						<div class="container">
 							<div class="footer-grids">
 								<div class="col-md-3 footer-grid">
-									<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Про нас</font></font></h4>
+									<h4><font style="font-family: 'Pacifico', cursive;font-size: 30px;">Про нас</></font></h4>
 									<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Наш магазин завжди радий вітати нових покупців. У нас ви знайдете найвишуканіші аксесуари та стильний одяг. Також для вас завжди прцює онлайн підтримка, на випадок якшо у вас виникнуть якісь запитання.</font></font></p>
-									<div class="social-icon">
-										<a href="#"><i class="icon"></i></a>
-										<a href="#"><i class="icon1"></i></a>
-										<a href="#"><i class="icon2"></i></a>
-										<a href="#"><i class="icon3"></i></a>
-									</div>
 								</div>
 								<div class="col-md-3 footer-grid">
-									<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Мій акаунт</font></font></h4>
+									<h4><font style="font-family: 'Pacifico', cursive;font-size: 30px;">Мій акаунт</></font></h4>
 									<ul>
 										<li><a href="checkout.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Кошик</font></font></a></li>
 										<li><a href="login.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Вхід</font></font></a></li>
@@ -597,16 +318,16 @@ $(window).load(function() {
 									</ul>
 								</div>
 								<div class="col-md-3 footer-grid">
-									<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Інформація</font></font></h4>
+									<h4><font style="font-family: 'Pacifico', cursive;font-size: 30px;">Інформація</></font></h4>
 									<ul>
 										<li><a href="index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Головна</font></font></a></li>
-										<li><a href="products.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Жіноча продукція</font></font></a></li>
-										<li><a href="products1.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Чоловіча продукція</font></font></a></li>
+										<li><a href="woman.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Жіноча продукція</font></font></a></li>
+										<li><a href="man.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Чоловіча продукція</font></font></a></li>
 										<li><a href="mail.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Зв'язок з нами</font></font></a></li>
 									</ul>
 								</div>
 								<div class="col-md-3 footer-grid foot">
-									<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Контакти</font></font></h4>
+									<h4><font style="font-family: 'Pacifico', cursive;font-size: 30px;">Контакти</></font></h4>
 									<ul>
 										<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">вул. Горбачевського 14, Львів</font></font></a></li>
 										<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+380639992211</font></font></a></li>
@@ -614,14 +335,10 @@ $(window).load(function() {
 
 									</ul>
 								</div>
-							<div class="clearfix"> </div>
 							</div>
 
 						</div>
 					</div>
 					<!---footer--->
-					<!--copy-->
-
-				<!--copy-->
 </body>
 </html>
