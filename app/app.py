@@ -10,7 +10,7 @@ db = SQLAlchemy(flask_app)
 migrate = Migrate(flask_app, db)
 
 from .models import Category, Product, Basket, BasketStorage
-# from app.views import *
+from .views import *
 
 if __name__ == "__main__":
     flask_app.run(host='localhost', port=8000)
