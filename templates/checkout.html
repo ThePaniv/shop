@@ -1,0 +1,213 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+<head>
+<!--css-->
+<link href={% static "/css/bootstrap.css" %} rel="stylesheet" type="text/css" media="all"/>
+<link href={% static "/css/style.css" %} rel="stylesheet" type="text/css" media="all" />
+<link href={% static "/css/font-awesome.css" %} rel="stylesheet">
+<!--css-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="New Shop Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src={% static "/js/jquery.min.js" %}></script>
+<link href='//fonts.googleapis.com/css?family=Cagliostro' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!--search jQuery-->
+	<script src={% static  "/js/main.js" %}></script>
+<!--search jQuery-->
+ <!--mycart-->
+<script type="text/javascript" src={% static "/js/bootstrap-3.1.1.min.js" %}></script>
+ <!-- cart -->
+<script src={% static "/js/simpleCart.min.js" %}></script>
+<!-- cart -->
+</head>
+ <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+<body>
+	<!--header-->
+		<div class="header">
+			<div class="header-top">
+				<div class="container">
+					 <div class="top-left">
+						<a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> допомога  </font></font><i class="glyphicon glyphicon-phone" aria-hidden="true"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> +38 032 3222020</font></font></a>
+					</div>
+					<div class="top-right">
+					<ul>
+						<li><a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">{{ username }}</font></font></a>
+                        <li><a href="/accounts/logout"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Вийти </font></font></a></li>
+                    </li>
+					</ul>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="heder-bottom">
+				<div class="container">
+					<div class="logo-nav">
+						<div class="logo-nav-left">
+							<h1><a href="/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Top Shop </font></a></h1>
+						</div>
+						<div class="logo-nav-left1">
+							<nav class="navbar navbar-default">
+							<div class="collapse navbar-collapse" >
+								<ul class="nav navbar-nav">
+									<li class="active"><a href="/" class="act"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Головна</font></font></a></li>
+									<li>
+										<a href="/women" ><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Жінки</font></font></a>
+									</li>
+									<li >
+										<a href="/men" ><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Чоловіки </font></font></a>
+									</li>
+									<li><a href="/mail"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Зв'язок з нами</font></font></a></li>
+								</ul>
+							</div>
+							</nav>
+						</div>
+						<div class="logo-nav-right">
+
+							<div id="cd-search" style="top: 142px;" class="cd-search">
+								<form action="#" method="post">
+									<input name="Search" type="search" placeholder="Пошук...">
+								</form>
+							</div>
+						</div>
+						<div class="header-right2">
+							<div class="cart box_1">
+								<a href="/checkout">
+									<h3> <div class="total">
+										<span class="simpleCart_total"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$ 140,00</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ( </font></font><span id="simpleCart_quantity" class="simpleCart_quantity"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> елементи)</font></font></div>
+										<img src="../main/static/images/bag.png" alt="">
+									</h3>
+								</a>
+								<p><a href="javascript:;" class="simpleCart_empty"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Кошик порожній</font></font></a></p>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--header-->
+		<!--banner-->
+		<div class="banner1"></div>
+	<!--banner-->
+	<!--content-->
+		<div class="content">
+			<div class="cart-items">
+				<div class="container">
+					 <h2 style="font-family: 'Pacifico', cursive;font-size: 30px;">Мій кошик (3)</h2>
+						<script>$(document).ready(function(c) {
+							$('.close1').on('click', function(c){
+								$('.cart-header').fadeOut('slow', function(c){
+									$('.cart-header').remove();
+								});
+								});	  
+							});
+					   </script>
+					 <div class="cart-header">
+						 <div class="close1"> </div>
+						 <div class="cart-sec simpleCart_shelfItem">
+								<div class="cart-item cyc">
+									 <img src="../main/static/images/p15.jpg" class="img-responsive" alt="">
+								</div>
+							   <div class="cart-item-info">
+								<h3><a> Жилетка чорна </a></h3>
+									 <div class="delivery">
+									 <div class="clearfix"></div>
+								</div>	
+							   </div>
+							   <div class="clearfix"></div>
+													
+						  </div>
+					 </div>
+					 <script>$(document).ready(function(c) {
+							$('.close2').on('click', function(c){
+									$('.cart-header2').fadeOut('slow', function(c){
+								$('.cart-header2').remove();
+							});
+							});	  
+							});
+					 </script>
+					<div class="cart-header2">
+						 <div class="close2"> </div>
+						  <div class="cart-sec simpleCart_shelfItem">
+								<div class="cart-item cyc">
+									 <img src="../main/static/images/s1.jpg" class="img-responsive" alt="">
+								</div>
+							   <div class="cart-item-info">
+								<h3><a>Рюкзак American Tourister  </a></h3>
+							   </div>
+							   <div class="clearfix"></div>
+													
+						  </div>
+					  </div>
+					  <script>$(document).ready(function(c) {
+							$('.close3').on('click', function(c){
+									$('.cart-header3').fadeOut('slow', function(c){
+								$('.cart-header3').remove();
+							});
+							});	  
+							});
+					 </script>
+					<div class="cart-header3">
+						 <div class="close3"> </div>
+							<div class="cart-sec simpleCart_shelfItem">
+								<div class="cart-item cyc">
+									 <img src="../main/static/images/i7.jpg" class="img-responsive" alt="">
+								</div>
+							   <div class="cart-item-info">
+								<h3><a>Біла майка + шорти</a></h3>
+									 <div class="clearfix"></div>
+								</div>	
+							   </div>
+							   <div class="clearfix"></div>
+							</div>
+					</div>		
+				</div>
+			</div>
+	<!-- checkout -->	
+		</div>
+					<!---footer--->
+					<div class="footer-w3l">
+						<div class="container">
+							<div class="footer-grids">
+								<div class="col-md-3 footer-grid">
+									<h4><font style="font-family: 'Pacifico', cursive;font-size: 30px;">Про нас</></font></h4>
+									<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Наш магазин завжди радий вітати нових покупців. У нас ви знайдете найвишуканіші аксесуари та стильний одяг. Також для вас завжди прцює онлайн підтримка, на випадок якшо у вас виникнуть якісь запитання.</font></font></p>
+								</div>
+								<div class="col-md-3 footer-grid">
+									<h4><font style="font-family: 'Pacifico', cursive;font-size: 30px;">Мій акаунт</></font></h4>
+									<ul>
+										<li><a href="/checkout"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Кошик</font></font></a></li>
+										<li><a href="/login"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Вхід</font></font></a></li>
+										<li><a href="/register"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Створити акаунт </font></font></a></li>
+									</ul>
+								</div>
+								<div class="col-md-3 footer-grid">
+									<h4><font style="font-family: 'Pacifico', cursive;font-size: 30px;">Інформація</></font></h4>
+									<ul>
+										<li><a href="/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Головна</font></font></a></li>
+										<li><a href="/women"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Жіноча продукція</font></font></a></li>
+										<li><a href="/men"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Чоловіча продукція</font></font></a></li>
+										<li><a href="/mail"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Зв'язок з нами</font></font></a></li>
+									</ul>
+								</div>
+								<div class="col-md-3 footer-grid foot">
+									<h4><font style="font-family: 'Pacifico', cursive;font-size: 30px;">Контакти</></font></h4>
+									<ul>
+										<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">вул. Горбачевського 14, Львів</font></font></a></li>
+										<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+380639992211</font></font></a></li>
+										<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:example@mail.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> example@mail.com</font></font></a></li>
+
+									</ul>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!---footer--->
+</body>
+</html>

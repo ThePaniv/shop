@@ -1,0 +1,222 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <!--css-->
+    <link href={% static "/css/bootstrap.css" %} rel="stylesheet" type="text/css" media="all"/>
+    <link href={% static "/css/style.css" %} rel="stylesheet" type="text/css" media="all"/>
+    <link href={% static "/css/font-awesome.css" %} rel="stylesheet">
+    <!--css-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content="New Shop Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <script src={% static "/js/jquery.min.js" %}></script>
+    <link href='//fonts.googleapis.com/css?family=Cagliostro' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300'
+          rel='stylesheet' type='text/css'>
+    <!--search jQuery-->
+    <script src={% static "/js/main.js" %}></script>
+    <!--search jQuery-->
+
+    <!--mycart-->
+    <script type="text/javascript" src={% static "/js/bootstrap-3.1.1.min.js" %}></script>
+    <!-- cart -->
+    <script src={% static "/js/simpleCart.min.js" %}></script>
+    <!-- cart -->
+
+</head>
+<body>
+<!--header-->
+<div class="header">
+    <div class="header-top">
+        <div class="container">
+            <div class="top-left">
+                <a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    допомога </font></font><i class="glyphicon glyphicon-phone" aria-hidden="true"></i><font
+                        style="vertical-align: inherit;"><font style="vertical-align: inherit;"> +38 032 3222020</font></font></a>
+            </div>
+            <div class="top-right">
+                <ul>
+                    <li><a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">{{ username }}</font></font></a>
+                    </li>
+                    <li><a href="/accounts/logout"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Вийти </font></font></a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="heder-bottom">
+        <div class="container">
+            <div class="logo-nav">
+                <div class="logo-nav-left">
+                    <h1><a href="/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Top
+                        Shop </font></a></h1>
+                </div>
+                <div class="logo-nav-left1">
+                    <nav class="navbar navbar-default">
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="/" class="act"><font style="vertical-align: inherit;"><font
+                                        style="vertical-align: inherit;">Головна</font></font></a></li>
+                                <li>
+                                    <a href="/woman"><font style="vertical-align: inherit;"><font
+                                            style="vertical-align: inherit;">Жінки</font></font></a>
+                                </li>
+                                <li>
+                                    <a href="/man"><font style="vertical-align: inherit;"><font
+                                            style="vertical-align: inherit;">Чоловіки </font></font></a>
+                                </li>
+                                <li><a href="/mail"><font style="vertical-align: inherit;"><font
+                                        style="vertical-align: inherit;">Зв'язок з нами</font></font></a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="logo-nav-right">
+                    <div id="cd-search" style="top: 142px;" class="cd-search">
+                        <form action="#" method="post">
+                            <input name="Search" type="search" placeholder="Пошук...">
+                        </form>
+                    </div>
+                </div>
+                <div class="header-right2">
+                    <div class="cart box_1">
+                        <a href="/checkout">
+                            <h3>
+                                <div class="total">
+                                    <span class="simpleCart_total"><font style="vertical-align: inherit;"><font
+                                            style="vertical-align: inherit;">$ 140,00</font></font></span><font
+                                        style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                    ( </font></font><span id="simpleCart_quantity" class="simpleCart_quantity"><font
+                                        style="vertical-align: inherit;"><font style="vertical-align: inherit;">2</font></font></span><font
+                                        style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                    елементи)</font></font></div>
+                                <img src="../main/static/images/bag.png" alt="">
+                            </h3>
+                        </a>
+                        <p><a href="javascript:;" class="simpleCart_empty"><font style="vertical-align: inherit;"><font
+                                style="vertical-align: inherit;">Кошик порожній</font></font></a></p>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--header-->
+<!--banner-->
+<div class="banner1"></div>
+<!--banner-->
+<!--content-->
+<div class="content">
+    <!--contact-->
+    <div class="mail-w3ls">
+        <div class="container">
+            <h2 class="tittle" style="font-family: 'Pacifico', cursive;font-size: 55px;">Зв'язок з нами</h2>
+            <div class="mail-grids">
+                <div class="mail-top">
+                    <div class="col-md-4 mail-grid">
+                        <i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>
+                        <h5 style="font-family: 'Pacifico', cursive;font-size: 35px;">Адреса</h5>
+                        <p>5-ий поверх, вул. Горбачевського 14, Львів, Україна</p>
+                    </div>
+                    <div class="col-md-4 mail-grid">
+                        <i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>
+                        <h5 style="font-family: 'Pacifico', cursive;font-size: 35px;">Номер телефону</h5>
+                        <p>+38 032 3222020</p>
+                    </div>
+                    <div class="col-md-4 mail-grid">
+                        <i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
+                        <h5 style="font-family: 'Pacifico', cursive;font-size: 35px;">Ел. пошта</h5>
+                        <p><a href="mailto:example@mail.com"> example@mail.com</a></p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="map-w3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.7489670966347!2d24.00692501570888!3d49.828383179394386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7df5a9921f%3A0xc59052d9e18b2d4c!2z0IbQn9Cf0KIg0J3QoyAi0JvRjNCy0ZbQstGB0YzQutCwINC_0L7Qu9GW0YLQtdGF0L3RltC60LAiLCDQstGD0LvQuNGG0Y8g0IbQstCw0L3QsCDQk9C-0YDQsdCw0YfQtdCy0YHRjNC60L7Qs9C-LCAxOCwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1580948301554!5m2!1suk!2sua"
+                            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+                <div class="mail-bottom">
+                    <h4 style="font-family: 'Pacifico', cursive;font-size: 50px;">Напишіть нам</h4>
+                    <form action="/mail" method="post">
+                        <input type="text" value="{{ current_name }}" name="name" placeholder="Name" required="">
+                        <input type="email" value="{{ current_name }}" name="email" placeholder="Email" required="">
+                        <input type="text" value="{{ current_name }}" name="phone" placeholder="Phone" required="">
+                        <textarea value="{{ current_name }}" name="message" required="">Message...</textarea>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Clear">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--contact-->
+</div>
+<!--content-->
+<!---footer--->
+<div class="footer-w3l">
+    <div class="container">
+        <div class="footer-grids">
+            <div class="col-md-3 footer-grid">
+                <h4><font style="font-family: 'Pacifico', cursive;font-size: 30px;">Про нас</></font></h4>
+                <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Наш магазин завжди
+                    радий вітати нових покупців. У нас ви знайдете найвишуканіші аксесуари та стильний одяг. Також для
+                    вас завжди прцює онлайн підтримка, на випадок якшо у вас виникнуть якісь запитання.</font></font>
+                </p>
+            </div>
+            <div class="col-md-3 footer-grid">
+                <h4><font style="font-family: 'Pacifico', cursive;font-size: 30px;">Мій акаунт</></font></h4>
+                <ul>
+                    <li><a href="/checkout"><font style="vertical-align: inherit;"><font
+                            style="vertical-align: inherit;">Кошик</font></font></a></li>
+                    <li><a href="/login"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Вхід</font></font></a>
+                    </li>
+                    <li><a href="/register"><font style="vertical-align: inherit;"><font
+                            style="vertical-align: inherit;"> Створити акаунт </font></font></a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 footer-grid">
+                <h4><font style="font-family: 'Pacifico', cursive;font-size: 30px;">Інформація</></font></h4>
+                <ul>
+                    <li><a href="/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Головна</font></font></a>
+                    </li>
+                    <li><a href="woman.html"><font style="vertical-align: inherit;"><font
+                            style="vertical-align: inherit;">Жіноча продукція</font></font></a></li>
+                    <li><a href="man.html"><font style="vertical-align: inherit;"><font
+                            style="vertical-align: inherit;">Чоловіча продукція</font></font></a></li>
+                    <li><a href="/mail"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Зв'язок
+                        з нами</font></font></a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 footer-grid foot">
+                <h4><font style="font-family: 'Pacifico', cursive;font-size: 30px;">Контакти</></font></h4>
+                <ul>
+                    <li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i><a href="#"><font
+                            style="vertical-align: inherit;"><font style="vertical-align: inherit;">вул. Горбачевського
+                        14, Львів</font></font></a></li>
+                    <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i><a href="#"><font
+                            style="vertical-align: inherit;"><font style="vertical-align: inherit;">+380639992211</font></font></a>
+                    </li>
+                    <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a
+                            href="mailto:example@mail.com"><font style="vertical-align: inherit;"><font
+                            style="vertical-align: inherit;"> example@mail.com</font></font></a></li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!---footer--->
+</body>
+</html>
