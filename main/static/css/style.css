@@ -513,11 +513,11 @@ a.simpleCart_empty {
   right: 0;
   bottom: 0;
   background: #F19E1F;
-    border-radius: 50%;
-	-webkit-border-radius: 60%;
-	-moz-border-radius: 60%;
-	-o-border-radius: 60%;
-	-ms-border-radius: 60%;
+  border-radius: 50%;
+  -webkit-border-radius: 60%;
+  -moz-border-radius: 60%;
+  -o-border-radius: 60%;
+  -ms-border-radius: 60%;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 100%;
@@ -1812,7 +1812,7 @@ span.price-in1 {
     cursor: default;
     background-color: #AF1D0D   ;
     border: none !important;
-    border-bottom-color: none !important;
+    /*border-bottom-color: none !important;*/
 }
 .nav > li > a:hover, .nav > li > a:focus {
     background: #AF1D0D   ;
@@ -2362,7 +2362,7 @@ ul.qty li p{
 }
 li.bt-nn h6 {
   font-size: 1.2em;
-  text-align: r;
+  /*text-align: r;*/
   color: #621622;
   margin: 1em 0;
 }

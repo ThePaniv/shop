@@ -99,7 +99,6 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: url(images/dot.png) repeat 0 0;
 }
 
 .core-slider__carousel { overflow: hidden; }
