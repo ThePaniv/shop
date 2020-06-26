@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '%m0+f#2%kj@5df5h^l&71r7@%*@97s!tb=v3wthmsa0$1_&9d='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['192.168.1.4', '127.0.0.1', 'https://snp-pract.herokuapp.com/']
 
